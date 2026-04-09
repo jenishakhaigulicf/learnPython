@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source venv/Scripts/activate && pip install fastapi uvicorn sqlalchemy \"passlib[bcrypt]\")",
+      "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && venv/Scripts/pip install sqlite-utils)",
+      "Bash(choco --version 2>/dev/null)",
+      "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && curl -L -o sqlite-tools.zip \"https://www.sqlite.org/2025/sqlite-tools-win-x64-3490200.zip\" && ls -la sqlite-tools.zip)",
+      "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && unzip -o sqlite-tools.zip -d sqlite-temp && cp sqlite-temp/sqlite-tools-win-x64-3490200/sqlite3.exe venv/Scripts/ && rm -rf sqlite-temp sqlite-tools.zip)",
+      "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && cp sqlite-temp/sqlite3.exe venv/Scripts/ && rm -rf sqlite-temp sqlite-tools.zip)",
+      "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && venv/Scripts/sqlite3.exe --version)",
+      "Bash(source venv/Scripts/activate && pip install bcrypt==4.0.1)"
+    ]
+  }
+}
