@@ -66,7 +66,7 @@ async def read_todo(
     )
     if todo_model is not None:
         return todo_model
-    raise HTTPException(status_code=404, detail="Todo no found")
+    raise HTTPException(status_code=404, detail="Todo not found")
 
 
 @router.post("/todo/", status_code=status.HTTP_201_CREATED)
