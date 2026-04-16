@@ -8,7 +8,11 @@
       "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && unzip -o sqlite-tools.zip -d sqlite-temp && cp sqlite-temp/sqlite-tools-win-x64-3490200/sqlite3.exe venv/Scripts/ && rm -rf sqlite-temp sqlite-tools.zip)",
       "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && cp sqlite-temp/sqlite3.exe venv/Scripts/ && rm -rf sqlite-temp sqlite-tools.zip)",
       "Bash(cd C:/Projects/learning-python/learnPython/TodoApp && venv/Scripts/sqlite3.exe --version)",
-      "Bash(source venv/Scripts/activate && pip install bcrypt==4.0.1)"
+      "Bash(source venv/Scripts/activate && pip install bcrypt==4.0.1)",
+      "Bash(cd \"C:\\\\Projects\\\\learning-python\\\\learnPython\\\\TodoApp\" && pip install psycopg2-binary)",
+      "Bash(cd \"C:\\\\Projects\\\\learning-python\\\\learnPython\\\\TodoApp\" && ./venv/Scripts/python.exe -m alembic upgrade 87aed3181b16)",
+      "Bash(cd \"C:\\\\Projects\\\\learning-python\\\\learnPython\\\\TodoApp\" && ./venv/Scripts/pip.exe install alembic)",
+      "Bash(cd \"C:\\\\Projects\\\\learning-python\\\\learnPython\\\\TodoApp\" && ./venv/Scripts/alembic.exe upgrade 87aed3181b16)"
     ]
   }
 }
